@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Thanh Long]
+ * MSSV:      [PS49311]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
 // BÀI 4: XÂY DỰNG CHƯƠNG TRÌNH TÍNH ĐIỂM TRUNG BÌNH 
@@ -14,7 +14,17 @@
 
 int main(){
     // Khai báo biến
-
+float Toán, Lý, Hóa;
+float diemtrungbinh;
+printf("Nhập điểm toán: ");
+scanf("%f", &Toán);
+printf("Nhập điểm lý: ");
+scanf("%f", &Lý);
+printf("Nhập điểm Hóa: ");
+scanf("%f", &Hóa);
+diemtrungbinh = (Toán * 3 + Lý * 2 + Hóa *1)/6;
+printf("Điểm trung binh: %.2f\n", diemtrungbinh);
+return 0;
     // Nhập dữ liệu
 
 

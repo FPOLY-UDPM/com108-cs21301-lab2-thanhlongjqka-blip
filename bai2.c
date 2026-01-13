@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Nguyễn Thanh Long]
+ * MSSV:      [PS49311]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
  // BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HCN 
@@ -12,7 +12,14 @@
 
 int main(){
     // Khai báo biến
-
+int dai, rong;
+printf("Nhap chiều dài: ");
+scanf("%d", &dai);
+printf("Nhap chiều rộng: ");
+scanf("%d", &rong);
+printf("Chu vi: %d\n", 2 * (dai + rong));
+printf("dien tich: %d", dai * rong);
+return 0;
     // Nhập dữ liệu
 
 
